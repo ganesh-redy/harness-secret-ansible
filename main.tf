@@ -6,7 +6,7 @@ provider "google" {
 provider "harness" {
   endpoint         = "https://app.harness.io/gateway"
   account_id       = "0PhQdAcEQcCLXQFhDptS_g"
-  platform_api_key = "<+secrets.getValue(\"project.harness_api_key\")>"
+  platform_api_key = "sat.0PhQdAcEQcCLXQFhDptS_g.681df8e5a4d5d55da387b557.DLGWPxH9qKkUNtQ03CYx"
 }
 
 
