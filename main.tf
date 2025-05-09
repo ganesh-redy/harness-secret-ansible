@@ -5,9 +5,10 @@ provider "google" {
 
 provider "harness" {
   endpoint         = "https://app.harness.io/gateway"
-  account_id       = "${var.account}"
-  platform_api_key = "<+secrets.getValue(\"project.harness_api_key\")>" # Recommended
+  account_id       = "0PhQdAcEQcCLXQFhDptS_g"
+  platform_api_key = "<+secrets.getValue(\"project.harness_api_key\")>"
 }
+
 
 terraform {
   required_providers {
