@@ -5,7 +5,7 @@ provider "google" {
 
 provider "harness" {
   endpoint         = "https://app.harness.io/gateway"
-  account_id       = "your_account_id_here"
+  account_id       = "${var.account}"
   platform_api_key = "<+secrets.getValue(\"project.harness_api_key\")>" # Recommended
 }
 
