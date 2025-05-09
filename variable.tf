@@ -17,4 +17,6 @@ variable "zone" {
 variable "name" {
   description = "name of vm"
 }
-
+variable "account"{
+description = "get account"
+}
